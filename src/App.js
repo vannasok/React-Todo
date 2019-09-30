@@ -1,6 +1,9 @@
 import React from 'react';
 import TodoList from './components/TodoComponents/TodoList';
 import TodoForm from './components/TodoComponents/TodoForm';
+import ReactDOM from 'react-dom';
+// import './App.css';
+// import './App.css';
 
 class App extends React.Component {
   constructor() {
@@ -56,7 +59,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className='app'>
+      <div className='App'>
         <div className='header-nav'>
           <h1>ToDo Lists: </h1>
         </div>
